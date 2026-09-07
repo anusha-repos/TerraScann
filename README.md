@@ -4,7 +4,7 @@ This folder contains the final React frontend and validated SatQuery FastAPI bac
 
 ## Structure
 
-- `frontend/` — React/Vite application
+- `frontend/` — React/Vite application 
 - `backend/` — FastAPI + AgentRouter + GeoChat task modules
 
 ## Important
