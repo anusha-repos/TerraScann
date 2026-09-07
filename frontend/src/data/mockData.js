@@ -1,0 +1,38 @@
+export const supportedDataTypes = [
+  {
+    id: "optical",
+    title: "Optical Images",
+    description: "High-resolution optical images (Sentinel-2, Landsat, etc.)",
+    image: "/images/optical_images.png",
+    badge: "Optical",
+    imagesNeeded: 1,
+    modeLabel: "Single Image",
+  },
+  {
+    id: "sar",
+    title: "SAR Images",
+    description: "Synthetic Aperture Radar images (Sentinel-1, ALOS, etc.)",
+    image: "/images/sar_images.png",
+    badge: "SAR",
+    imagesNeeded: 1,
+    modeLabel: "Single Image",
+  },
+  {
+    id: "multitemporal",
+    title: "Multitemporal Pair",
+    description: "Images from different times to detect changes.",
+    image: "/images/multitemporal_pair.png",
+    badge: "Bi-temporal",
+    imagesNeeded: 2,
+    modeLabel: "Pair (2 compulsory)",
+  },
+  {
+    id: "optical_sar",
+    title: "Optical + SAR Pair",
+    description: "Combine optical and SAR data for better and reliable analysis.",
+    image: "/images/optical_sar_pair.png",
+    badge: "Optical + SAR",
+    imagesNeeded: 2,
+    modeLabel: "Pair (2 compulsory)",
+  },
+];

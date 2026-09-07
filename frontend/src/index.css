@@ -1,0 +1,5 @@
+* { box-sizing: border-box; }
+html, body, #root { min-height: 100%; }
+body { margin: 0; background: #f8fafc; }
+button, textarea, select, input { font: inherit; }
+button { -webkit-tap-highlight-color: transparent; }
